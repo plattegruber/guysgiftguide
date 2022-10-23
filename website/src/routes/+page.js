@@ -46,7 +46,7 @@ export function load() {
             },
             {
                 title: 'Tidbyt',
-                imageurl: 'https://ucarecdn.com/f758e4ce-cd29-4a29-8ab8-bd68d75347e5/-/preview/-/quality/smart/-/format/auto/',
+                imageUrl: 'https://ucarecdn.com/f758e4ce-cd29-4a29-8ab8-bd68d75347e5/-/preview/-/quality/smart/-/format/auto/',
                 imageAltText: 'Tidbyt product image',
                 description: 'A customizable retro display that fits in any space. Shows sports scores, crypto prices, the weather, Spotify information - basically whatever you want!',
                 link: 'https://tidbyt.com/products/tidbyt'
