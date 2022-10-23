@@ -5,3 +5,7 @@
 .color-brand-blue {
     color: #4A6FA5;
 }
+
+.active {
+    border-bottom: solid 6px #E6AF2E;
+}

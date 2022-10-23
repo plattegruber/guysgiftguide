@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
     import logo from '$lib/assets/logo.png';
+    import { page } from '$app/stores';
 </script>
 <header>
     <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
@@ -11,16 +12,16 @@
             <img class="h-8 w-auto" src={logo} alt="guys gift guide logo">
           </a>
           <div class="ml-10 hidden space-x-8 lg:block">
-            <a href="#" class="text-base font-medium hover:text-indigo-50">Gift Ideas</a>
+            <a href="#" class="text-base font-medium hover:text-indigo-50" class:active={!$page.url.pathname.includes('blog')}>Gift Ideas</a>
   
-            <a href="#" class="text-base font-medium hover:text-indigo-50">Blog</a>
+            <a href="#" class="text-base font-medium hover:text-indigo-50" class:active={$page.url.pathname.includes('blog')}>Blog</a>
           </div>
         </div>
       </div>
       <div class="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
-        <a href="#" class="text-base font-medium hover:text-indigo-50">Gift Ideas</a>
+        <a href="#" class="text-base font-medium hover:text-indigo-50" class:active={!$page.url.pathname.includes('blog')}>Gift Ideas</a>
   
-        <a href="#" class="text-base font-medium hover:text-indigo-50">Blog</a>
+        <a href="#" class="text-base font-medium hover:text-indigo-50" class:active={$page.url.pathname.includes('blog')}>Blog</a>
       </div>
     </nav>
   </header>
