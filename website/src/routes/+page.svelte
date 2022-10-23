@@ -6,7 +6,7 @@
 <div class="relative bg-white pt-16">
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hand-curated gifts guys will (actually) love</p>
-      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Gifts from around the internet that guys are sure to love. We look for the useful, unique, cool things that aren't on everybody's list, but absolutely should be.</p>
+      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Gifts from around the internet that guys are sure to love. We look for the useful, unique, cool things that aren't on everybody's list, but absolutely should be. Updated daily.</p>
     </div>
   </div>
   
