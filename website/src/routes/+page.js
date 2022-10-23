@@ -18,7 +18,7 @@ export function load() {
             },
             {
                 title: 'The Hero\'s Journal',
-                imageUrl: 'https://ucarecdn.com/14bffa9e-e3c0-4db2-942f-ebc5c5fc3de9/-/preview/-/quality/smart/-/format/auto/',
+                imageUrl: 'https://ucarecdn.com/cb9a3239-cb79-46ba-ba3e-a7884d4e4010/-/preview/-/quality/smart/-/format/auto/',
                 imageAltText: 'The Hero\'s Journal product image',
                 description: 'Turn your own story into an epic adventure. This journal tracks goals and turns YOU into the main character.',
                 link: 'https://theherosjournal.co/collections/the-heros-journal/products/copy-of-the-heros-journal-journal-pdf'
