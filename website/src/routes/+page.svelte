@@ -18,7 +18,7 @@
     {#each data.products as product}
             <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
                 <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
-                    <img src="{product.imageUrl}" alt="Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green." class="h-full w-full object-cover object-center sm:h-full sm:w-full">
+                    <img src={product.imageUrl} alt="Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green." class="h-full w-full object-cover object-center sm:h-full sm:w-full">
                     </div>
                     <div class="flex flex-1 flex-col space-y-2 p-4">
                     <h3 class="text-sm font-medium text-gray-900">
