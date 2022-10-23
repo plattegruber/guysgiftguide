@@ -17,19 +17,19 @@
     <div class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8">
     {#each data.products as product}
             <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
-                <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
-                    <img src={product.imageUrl} alt="Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green." class="h-full w-full object-cover object-center sm:h-full sm:w-full">
+                <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-72">
+                    <img src={product.imageUrl} alt={product.imageAltText} class="h-full w-full object-cover object-center sm:h-full sm:w-full">
                     </div>
                     <div class="flex flex-1 flex-col space-y-2 p-4">
                     <h3 class="text-sm font-medium text-gray-900">
-                        <a href="#">
+                        <a href={product.link} target="_blank" rel="noreferrer">
                         <span aria-hidden="true" class="absolute inset-0"></span>
                         {product.title}
                         </a>
                     </h3>
                     <p class="text-sm text-gray-500">{product.description}</p>
                     <div class="flex flex-1 flex-col justify-end">
-                        <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">View More</button>
+                        <a href={product.link} target="_blank" rel="noreferrer" class="inline-flex items-center color-brand-blue py-2 text-sm font-medium hover:bg-gray-200 focus:outline focus:ring-2">Go to product &rarr;</a>
                     </div>
                 </div>
             </div>
