@@ -29,6 +29,13 @@ export function load() {
                 imageAltText: 'Tile Slim product image',
                 description: 'A cool little item tracket that\'s designed to fit in your wallet.',
                 link: 'https://www.amazon.com/Tile-1-Pack-Bluetooth-Water-Resistant-Compatible/dp/B09B2NYJ3T?th=1'
+            },
+            {
+                title: 'Massdrop x Sennheiser HD 6XX Headphones',
+                imageUrl: 'https://ucarecdn.com/e1428540-c58c-40d2-8302-2a8e30affab1/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Massdrop x Sennheiser HD 6XX Headphones product image',
+                description: 'The highly touted open-backed headphones recommended by audiophiles.',
+                link: 'https://drop.com/buy/massdrop-sennheiser-hd6xx'
             }
         ]
     };
