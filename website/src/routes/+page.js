@@ -22,6 +22,13 @@ export function load() {
                 imageAltText: 'The Hero\'s Journal product image',
                 description: 'Turn your own story into an epic adventure. This journal tracks goals and turns YOU into the main character.',
                 link: 'https://theherosjournal.co/collections/the-heros-journal/products/copy-of-the-heros-journal-journal-pdf'
+            },
+            {
+                title: 'Tile Slim',
+                imageUrl: 'https://ucarecdn.com/4e210ac1-90e5-4043-bb1a-d16fa868d8d6/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Tile Slim product image',
+                description: 'A cool little item tracket that\'s designed to fit in your wallet.',
+                link: 'https://www.amazon.com/Tile-1-Pack-Bluetooth-Water-Resistant-Compatible/dp/B09B2NYJ3T?th=1'
             }
         ]
     };
