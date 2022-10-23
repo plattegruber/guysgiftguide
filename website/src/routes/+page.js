@@ -36,6 +36,13 @@ export function load() {
                 imageAltText: 'Massdrop x Sennheiser HD 6XX Headphones product image',
                 description: 'The highly touted open-backed headphones recommended by audiophiles.',
                 link: 'https://drop.com/buy/massdrop-sennheiser-hd6xx'
+            },
+            {
+                title: 'Geekboards Soyuz desk mat',
+                imageUrl: 'https://ucarecdn.com/b9804d5c-5404-4114-a4c9-a3ea8df439e3/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Geekboards Soyuz desk mat product image',
+                description: 'An awesome, high-quality desk mat that sits under the keyboard and mouse, bringing character to the workspace.',
+                link: 'https://drop.com/buy/geekboards-soyuz-stitched-edge-thick-cloth-desk-mats?searchId=03af64a4fb6394a9f2bbcb2b0d3d4fe9'
             }
         ]
     };
