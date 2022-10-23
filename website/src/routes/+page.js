@@ -43,6 +43,13 @@ export function load() {
                 imageAltText: 'Geekboards Soyuz desk mat product image',
                 description: 'An awesome, high-quality desk mat that sits under the keyboard and mouse, bringing character to the workspace.',
                 link: 'https://drop.com/buy/geekboards-soyuz-stitched-edge-thick-cloth-desk-mats?searchId=03af64a4fb6394a9f2bbcb2b0d3d4fe9'
+            },
+            {
+                title: 'Tidbyt',
+                imageurl: 'https://ucarecdn.com/f758e4ce-cd29-4a29-8ab8-bd68d75347e5/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Tidbyt product image',
+                description: 'A customizable retro display that fits in any space. Shows sports scores, crypto prices, the weather, Spotify information - basically whatever you want!',
+                link: 'https://tidbyt.com/products/tidbyt'
             }
         ]
     };
