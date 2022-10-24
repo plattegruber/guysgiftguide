@@ -55,7 +55,7 @@ export function load() {
                 title: 'Darkplates 2.0',
                 imageUrl: 'https://ucarecdn.com/547f006a-93c8-4132-9ebe-6a3568aaed6d/-/preview/-/quality/smart/-/format/auto/',
                 imageAltText: 'Darkplates 2.0 product image',
-                description: 'Replaces the outer shell of the Playstation 5 with a custom one, including a vent fan and leds.',
+                description: 'Replaces the outer shell of the Playstation 5 with a custom one, including custom colors, fan vents, and leds.',
                 link: 'https://dbrand.com/shop/special-edition/ps5'
             }
         ]
