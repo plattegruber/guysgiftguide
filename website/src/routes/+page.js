@@ -50,6 +50,13 @@ export function load() {
                 imageAltText: 'Tidbyt product image',
                 description: 'A customizable retro display that fits in any space. Shows sports scores, crypto prices, the weather, Spotify information - basically whatever you want!',
                 link: 'https://tidbyt.com/products/tidbyt'
+            },
+            {
+                title: 'Darkplates 2.0',
+                imageUrl: 'https://ucarecdn.com/547f006a-93c8-4132-9ebe-6a3568aaed6d/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Darkplates 2.0 product image',
+                description: 'Replaces the outer shell of the Playstation 5 with a custom one, including a vent fan and leds.',
+                link: 'https://dbrand.com/shop/special-edition/ps5'
             }
         ]
     };
