@@ -71,6 +71,13 @@ export function load() {
                 imageAltText: 'Lumin fundamental duo product image',
                 description: 'A two-step skincare routine built for guys.',
                 link: 'https://www.luminskin.com/products/fundamental-duo'
+            },
+            {
+                title: 'The Food Lab',
+                imageUrl: 'https://ucarecdn.com/18ec8bc6-a194-4438-9c1f-86ec27f3cfaf/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'The Food Lab product image',
+                description: 'An incredible cookbook filled science-backed techniques and suggestions from J Kenji López-Alt.',
+                link: 'https://www.target.com/p/the-food-lab-by-j-kenji-l-243-pez-alt-hardcover/-/A-79367084#lnk=sametab'
             }
         ]
     };
