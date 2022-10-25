@@ -32,6 +32,33 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <div class="inline-block">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">Article</span>
+                    </div>
+                </div>
+                <a href="/blog/the-ultimate-guide-to-planning-a-guys-birthday" class="mt-4 block">
+                    <p class="text-xl font-semibold text-gray-900">The Ultimate Guide to Planning a Guys Birthday Party</p>
+                    <p class="mt-3 text-base text-gray-500">Planning a guys birthday can be a daunting task. But don't worry, we are here to help! In this blog post, we will outline everything you need...</p>
+                </a>
+                <div class="mt-6 flex items-center">
+                    <div class="flex-shrink-0">
+                        <span class="sr-only">Platte Gruber</span>
+                        <img class="h-10 w-10 rounded-full" src="https://ucarecdn.com/8b32ea95-de42-4285-a17c-ac0d88f8a695/-/scale_crop/100x100/smart/" alt="Platte Gruber profile">
+                    </div>
+                    <div class="ml-3">
+                        <p class="text-sm font-medium text-gray-900">
+                            Platte Gruber
+                        </p>
+                        <div class="flex space-x-1 text-sm text-gray-500">
+                            <time datetime="2020-03-16">Oct 24, 2022</time>
+                            <span aria-hidden="true">&middot;</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
