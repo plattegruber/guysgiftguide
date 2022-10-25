@@ -64,6 +64,13 @@ export function load() {
                 imageAltText: 'Lifelong Office Chair Wheels product image',
                 description: 'Upgrade your sitting experience with these roller blade - the lifehack that improves any office chair!',
                 link: 'https://www.amazon.com/wheels-replacement-casters-hardwood-duty/dp/B01G643EU6/ref=sr_1_1_sspa?keywords=roller+blade+wheels+office+chairs&qid=1666657172&qu=eyJxc2MiOiI0LjM1IiwicXNhIjoiMy44MSIsInFzcCI6IjMuNzcifQ%3D%3D&sprefix=roller+blade+whee%2Caps%2C464&sr=8-1-spons&psc=1'
+            },
+            {
+                title: 'Lumin Fundamental Duo',
+                imageUrl: 'https://ucarecdn.com/84f133a8-9b2d-4517-99aa-492cbe0875ba/-/preview/-/quality/smart/-/format/auto/',
+                imageAltText: 'Lumin fundamental duo product image',
+                description: 'A two-step skincare routine built for guys.',
+                link: 'https://www.luminskin.com/products/fundamental-duo'
             }
         ]
     };
