@@ -17,12 +17,12 @@
                 </a>
                 <div class="mt-6 flex items-center">
                     <div class="flex-shrink-0">
-                        <span class="sr-only">Platte Gruber</span>
-                        <img class="h-10 w-10 rounded-full" src="https://ucarecdn.com/8b32ea95-de42-4285-a17c-ac0d88f8a695/-/scale_crop/100x100/smart/" alt="Platte Gruber profile">
+                        <span class="sr-only">Jason P.</span>
+                        <img class="h-10 w-10 rounded-full" src="https://ucarecdn.com/737b64d1-a06b-4474-ba37-f14d8bfdd407/-/scale_crop/100x100/smart/" alt="Jason P. profile">
                     </div>
                     <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                            Platte Gruber
+                            Jason P.
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
                             <time datetime="2020-03-16">Oct 24, 2022</time>
@@ -44,12 +44,12 @@
                 </a>
                 <div class="mt-6 flex items-center">
                     <div class="flex-shrink-0">
-                        <span class="sr-only">Platte Gruber</span>
-                        <img class="h-10 w-10 rounded-full" src="https://ucarecdn.com/8b32ea95-de42-4285-a17c-ac0d88f8a695/-/scale_crop/100x100/smart/" alt="Platte Gruber profile">
+                        <span class="sr-only">Jason P.</span>
+                        <img class="h-10 w-10 rounded-full" src="https://ucarecdn.com/737b64d1-a06b-4474-ba37-f14d8bfdd407/-/scale_crop/100x100/smart/" alt="Jason P. profile">
                     </div>
                     <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                            Platte Gruber
+                            Jason P.
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
                             <time datetime="2020-03-16">Oct 24, 2022</time>
