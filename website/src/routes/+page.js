@@ -62,7 +62,7 @@ export function load() {
                 title: 'Lifelong Office Chair Wheels',
                 imageUrl: 'https://ucarecdn.com/d1e3905e-5da3-433d-b789-d3f7ab221521/-/preview/-/quality/smart/-/format/auto/',
                 imageAltText: 'Lifelong Office Chair Wheels product image',
-                description: 'Upgrade your sitting experience with these roller blade - the lifehack that improves any office chair!',
+                description: 'Upgrade your sitting experience with these roller blade wheels - the lifehack that improves any office chair!',
                 link: 'https://www.amazon.com/wheels-replacement-casters-hardwood-duty/dp/B01G643EU6/ref=sr_1_1_sspa?keywords=roller+blade+wheels+office+chairs&qid=1666657172&qu=eyJxc2MiOiI0LjM1IiwicXNhIjoiMy44MSIsInFzcCI6IjMuNzcifQ%3D%3D&sprefix=roller+blade+whee%2Caps%2C464&sr=8-1-spons&psc=1'
             },
             {
