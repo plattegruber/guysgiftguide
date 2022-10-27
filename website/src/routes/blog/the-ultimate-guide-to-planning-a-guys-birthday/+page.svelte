@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Guys Gift Guide - The Ultimate Guide to Planning a Guys Birthday</title>
+  <meta name="description" content="Planning a guys birthday can be a daunting task. But don't worry, we are here to help! In this blog post, we will outline everything you need...">
+</svelte:head>
+
 <div class="relative overflow-hidden bg-white py-16">
     <div class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
         <div class="relative mx-auto h-full max-w-prose text-lg" aria-hidden="true">

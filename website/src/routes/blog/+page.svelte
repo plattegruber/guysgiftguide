@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Guys Gift Guide - the blog</title>
+  <meta name="description" content="Articles and resources meant to help you choose the right gift, every time!">
+</svelte:head>
+
 <div class="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
     <div class="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
         <div>

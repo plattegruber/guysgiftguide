@@ -2,6 +2,11 @@
     /** @type {import('./$types').PageData} */
     export let data;
 </script>
+
+<svelte:head>
+	<title>Guys Gift Guide - a hand-curated list of gift ideas for men</title>
+  <meta name="description" content="Gifts from around the internet that guys are sure to love. We look for the useful, unique, cool things that aren't on everybody's list, but absolutely should be. Updated daily.">
+</svelte:head>
   
 <div class="relative bg-white pt-16">
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">

@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Guys Gift Guide - The Perfect Guide to Choosing a Gift for the Special Guy in your Life</title>
+  <meta name="description" content="There are a lot of different things to consider when choosing the perfect gift for the special guy in your life. You want something...">
+</svelte:head>
+
 <div class="relative overflow-hidden bg-white py-16">
     <div class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
         <div class="relative mx-auto h-full max-w-prose text-lg" aria-hidden="true">
