@@ -85,6 +85,13 @@ export function load() {
                 imageAltText: 'Urban Accents Movie Night Popcorn Set product image',
                 description: 'Three kinds of popcorn with five different flavorings - this and his favorite movie would make a perfect date!',
                 link: 'https://www.amazon.com/Urban-Accents-Popcorn-Kernels-Seasoning/dp/B07JN5467R/ref=sr_1_9_mod_primary_new?crid=38NS3TAFKNP7B&keywords=men%27s+gifts&qid=1666748100&qu=eyJxc2MiOiI5LjE4IiwicXNhIjoiOC45MSIsInFzcCI6IjguNTQifQ%3D%3D&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=men%27s+gifts%2Caps%2C139&sr=8-9'
+            },
+            {
+                title: 'Casper Backrest Pillow',
+                imageUrl: 'https://ucarecdn.com/c5df8491-d63a-46a8-bf17-f14b6cedfeeb/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'Casper Backrest Pillow product image',
+                description: 'A comfortable, sleek backrest pillow perfect for the end of the day.',
+                link: 'https://a.co/d/cKdl3FA'
             }
         ]
     };
