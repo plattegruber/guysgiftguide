@@ -99,6 +99,13 @@ export function load() {
                 imageAltText: 'Stagg Electric Kettle product image',
                 description: 'Sleek and functional, perfect for tea, coffee, and cup noodles.',
                 link: 'https://fellowproducts.com/products/stagg-ekg-pro-electric-kettle-studio-edition'
+            },
+            {
+                title: 'Ace Sweatpant',
+                imageUrl: 'https://ucarecdn.com/5493152d-071b-4620-ae9d-5802e401e316/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'Ace Sweatpant product image',
+                description: 'Modern with a tailored fit, and ultra comfortable.',
+                link: 'https://mackweldon.com/products/ace-sweatpant-total-eclipse-blue'
             }
         ]
     };
