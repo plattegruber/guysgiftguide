@@ -92,6 +92,13 @@ export function load() {
                 imageAltText: 'Casper Backrest Pillow product image',
                 description: 'A comfortable, sleek backrest pillow perfect for the end of the day.',
                 link: 'https://a.co/d/cKdl3FA'
+            },
+            {
+                title: 'Stagg Electric Kettle',
+                imageUrl: 'https://ucarecdn.com/253e873d-7082-4ac8-817c-10ce11070b39/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'Stagg Electric Kettle product image',
+                description: 'Sleek and functional, perfect for tea, coffee, and cup noodles.',
+                link: 'https://fellowproducts.com/products/stagg-ekg-pro-electric-kettle-studio-edition'
             }
         ]
     };
