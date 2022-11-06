@@ -106,6 +106,13 @@ export function load() {
                 imageAltText: 'Ace Sweatpant product image',
                 description: 'Modern with a tailored fit, and ultra comfortable.',
                 link: 'https://mackweldon.com/products/ace-sweatpant-total-eclipse-blue'
+            },
+            {
+                title: 'Nike Sportswear Beanie',
+                imageUrl: 'https://ucarecdn.com/f0bf5124-37be-4829-ab88-d63736e8f0a8/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'Nike Sportswear Beanie product image',
+                description: 'A classic, staple beanie in a variety of colors.',
+                link: 'https://www.nike.com/t/sportswear-beanie-gnc4v7/DJ6223-382'
             }
         ]
     };
