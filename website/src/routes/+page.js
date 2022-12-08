@@ -14,7 +14,7 @@ export function load() {
                 imageUrl: 'https://ucarecdn.com/14bffa9e-e3c0-4db2-942f-ebc5c5fc3de9/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
                 imageAltText: 'Solo Stove Bonfire 2.0 product image',
                 description: 'Smokeless, portable fire pit for the backyard or travel.',
-                link: 'https://www.solostove.com/en-us/p/solo-stove-bonfire'
+                link: 'https://amzn.to/3Bj2AtD'
             },
             {
                 title: 'The Hero\'s Journal',
