@@ -28,7 +28,7 @@ export function load() {
                 imageUrl: 'https://ucarecdn.com/4e210ac1-90e5-4043-bb1a-d16fa868d8d6/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
                 imageAltText: 'Tile Slim product image',
                 description: 'A cool little item tracket that\'s designed to fit in your wallet.',
-                link: 'https://www.amazon.com/Tile-1-Pack-Bluetooth-Water-Resistant-Compatible/dp/B09B2NYJ3T?th=1'
+                link: 'https://amzn.to/3Y81o5V'
             },
             {
                 title: 'Massdrop x Sennheiser HD 6XX Headphones',
@@ -63,7 +63,7 @@ export function load() {
                 imageUrl: 'https://ucarecdn.com/d1e3905e-5da3-433d-b789-d3f7ab221521/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
                 imageAltText: 'Lifelong Office Chair Wheels product image',
                 description: 'Upgrade your sitting experience with these roller blade wheels - the lifehack that improves any office chair!',
-                link: 'https://www.amazon.com/wheels-replacement-casters-hardwood-duty/dp/B01G643EU6/ref=sr_1_1_sspa?keywords=roller+blade+wheels+office+chairs&qid=1666657172&qu=eyJxc2MiOiI0LjM1IiwicXNhIjoiMy44MSIsInFzcCI6IjMuNzcifQ%3D%3D&sprefix=roller+blade+whee%2Caps%2C464&sr=8-1-spons&psc=1'
+                link: 'https://amzn.to/3FBoACg'
             },
             {
                 title: 'Lumin Fundamental Duo',
@@ -84,14 +84,14 @@ export function load() {
                 imageUrl: 'https://ucarecdn.com/3a1b3fff-e751-4ed2-a307-1d01322db20b/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
                 imageAltText: 'Urban Accents Movie Night Popcorn Set product image',
                 description: 'Three kinds of popcorn with five different flavorings - this and his favorite movie would make a perfect date!',
-                link: 'https://www.amazon.com/Urban-Accents-Popcorn-Kernels-Seasoning/dp/B07JN5467R/ref=sr_1_9_mod_primary_new?crid=38NS3TAFKNP7B&keywords=men%27s+gifts&qid=1666748100&qu=eyJxc2MiOiI5LjE4IiwicXNhIjoiOC45MSIsInFzcCI6IjguNTQifQ%3D%3D&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=men%27s+gifts%2Caps%2C139&sr=8-9'
+                link: 'https://amzn.to/3VKIJLW'
             },
             {
                 title: 'Casper Backrest Pillow',
                 imageUrl: 'https://ucarecdn.com/c5df8491-d63a-46a8-bf17-f14b6cedfeeb/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
                 imageAltText: 'Casper Backrest Pillow product image',
                 description: 'A comfortable, sleek backrest pillow perfect for the end of the day.',
-                link: 'https://a.co/d/cKdl3FA'
+                link: 'https://amzn.to/3P8fErr'
             },
             {
                 title: 'Stagg Electric Kettle',
