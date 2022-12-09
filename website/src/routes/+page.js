@@ -113,6 +113,13 @@ export function load() {
                 imageAltText: 'Nike Sportswear Beanie product image',
                 description: 'A classic, staple beanie in a variety of colors.',
                 link: 'https://www.nike.com/t/sportswear-beanie-gnc4v7/DJ6223-382'
+            },
+            {
+                title: 'Monos Packing Cubes',
+                imageUrl: 'https://ucarecdn.com/c8dab65a-c3fd-4833-b717-a038aa6ed601/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'Monos Packing Cubes product image',
+                description: 'Modern, practical packing cubes for the guy that travels.',
+                link: 'https://monos.com/products/packing-cubes'
             }
         ]
     };
