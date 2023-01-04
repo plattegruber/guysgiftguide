@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Guys Gift Guide - a hand-curated list of gift ideas for men</title>
+	<title>Guys Gift Guide | gifts for guys | a hand-curated list of men's gift ideas</title>
   <meta name="description" content="Gifts from around the internet that guys are sure to love. We look for the useful, unique, cool things that aren't on everybody's list, but absolutely should be. Updated daily.">
 </svelte:head>
   
