@@ -12,14 +12,14 @@ export const actions = {
 
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `Given a description of a man, give me five relevant, specific, and very unique gift ideas in a list. If my description of the guy is nonsense, or has no clear answer, respond with "Unknown". Man: ${prompt}`,
+      prompt: `Given a description of a man, give me five relevant, specific, and very unique gift ideas in a list. Don't include presonalized gifts. If my description of the guy is nonsense, or has no clear answer, respond with "Unknown". Man: ${prompt}`,
       temperature: 0,
       max_tokens: 175,
     });
     const choices = response.data.choices;
 
     if (choices && choices.length > 0) {
-      return `Ok, I've got some ideas for you. Try these!\n\n${choices[0].text?.trim()}\n\nIf you want some hand-curated ideas, check out <a href="https://guysgift.guide/">Gift Ideas</a> tab!`
+      return `Ok, I've got some ideas for you. Try these!\n\n${choices[0].text?.trim()}\n\nIf you want some hand-curated ideas, check out the <a href="https://guysgift.guide/">Gift Ideas</a> tab!`
     }
     else {
       return 'Something went wrong, sorry!'
