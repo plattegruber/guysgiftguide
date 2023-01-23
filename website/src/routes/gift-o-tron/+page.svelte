@@ -15,7 +15,7 @@
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-8 sm:mt-20">
         <div class="min-w-0 flex-1">
             <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
-                <textarea readonly class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Add your comment...">Tell us about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</textarea>
+                <textarea readonly class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Add your comment...">Hello! Tell me about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</textarea>
             </div>
         </div>
         <div class="flex-shrink-0">
