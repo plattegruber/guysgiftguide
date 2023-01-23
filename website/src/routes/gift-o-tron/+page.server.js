@@ -10,7 +10,6 @@ export const actions = {
     const formData = await request.formData()
     const { prompt } = Object.fromEntries(formData)
 
-    console.log('Sending request to open ai')
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `Given a description of a man, give me five relevant, specific, and very unique gift ideas in a list. If my description of the guy is nonsense, or has no clear answer, respond with "Unknown". Man: ${prompt}`,
