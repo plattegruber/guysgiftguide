@@ -9,13 +9,20 @@
 
   /**@type Boolean*/
   let loading = false;
+
+  /**
+	 * @param {string} text
+	 */
+  function htmlify(text) {
+    return text.split("\n").join("<br />")
+  }
 </script>
 
 <div class="container mx-auto flex flex-col items-center">
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-8 sm:mt-20">
         <div class="min-w-0 flex-1">
             <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
-                <textarea readonly class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Add your comment...">Hello! Tell me about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</textarea>
+                <div class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 prose sm:prose-lg">Hello! Tell me about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</div>
             </div>
         </div>
         <div class="flex-shrink-0">
@@ -36,7 +43,7 @@
               }}>
                 <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
                     <label for="prompt" class="sr-only">Tell us about the guy you're trying to buy a gift for. The more specific the better!</label>
-                    <textarea rows="3" name="prompt" id="prompt" required class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Type your description here..."></textarea>
+                    <textarea rows="3" name="prompt" id="prompt" required class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 prose sm:prose-lg" placeholder="Type your description here..."></textarea>
     
                     <!-- Spacer element to match the height of the toolbar -->
                     <div class="py-2" aria-hidden="true">
@@ -55,7 +62,7 @@
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-20">
         <div class="min-w-0 flex-1">
             <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
-                <textarea readonly rows={giftIdeas ? 7 : 1} class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="{loading ? 'Thinking...' : ''}">{giftIdeas}</textarea>
+                <div class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 prose sm:prose-lg" >{@html loading ? 'Thinking...' : htmlify(giftIdeas)}</div>
             </div>
         </div>
         <div class="flex-shrink-0">

@@ -8,7 +8,8 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	kit: {
-		adapter: adapter({ edge: true })
+		adapter: adapter({ edge: true }),
+		csrf: false
 	},
 
 	preprocess: [

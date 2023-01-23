@@ -19,7 +19,7 @@ export const actions = {
     const choices = response.data.choices;
 
     if (choices && choices.length > 0) {
-      return `Ok, I've got some ideas for you. Try these!\n\n${choices[0].text?.trim()}`
+      return `Ok, I've got some ideas for you. Try these!\n\n${choices[0].text?.trim()}\n\nIf you want some hand-curated ideas, check out <a href="https://guysgift.guide/">Gift Ideas</a> tab!`
     }
     else {
       return 'Something went wrong, sorry!'
