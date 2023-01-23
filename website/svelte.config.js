@@ -8,10 +8,7 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	kit: {
-		adapter: adapter(),
-		csrf: {
-			checkOrigin: false,
-		  }
+		adapter: adapter()
 	},
 
 	preprocess: [
