@@ -6,13 +6,16 @@
   
   /**@type String */
   let giftIdeas = '';
+
+  /**@type Boolean*/
+  let loading = false;
 </script>
 
 <div class="container mx-auto flex flex-col items-center">
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-8 sm:mt-20">
         <div class="min-w-0 flex-1">
-            <div class="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
-                <textarea readonly class="block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Add your comment...">Tell us about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</textarea>
+            <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
+                <textarea readonly class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Add your comment...">Tell us about the guy you're trying to buy a gift for. The more specific the better! Maybe include his age, his hobbies, things like that.</textarea>
             </div>
         </div>
         <div class="flex-shrink-0">
@@ -21,17 +24,19 @@
     </div>
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-8">
         <div class="flex-shrink-0">
-            <img class="inline-block h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <img class="inline-block h-10 w-10 rounded-full" src="https://ucarecdn.com/e3e2c528-fb0c-45c4-9e79-2748398187c0/-/preview/50x50/" alt="">
         </div>
         <div class="min-w-0 flex-1">
             <form method="POST" class="relative" use:enhance={({ form, data, action, cancel }) => {
+                loading = true;
                 return async ({ result }) => {
-                    giftIdeas = result.data
+                    giftIdeas = result.data;
+                    loading = false;
                 };
               }}>
-                <div class="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
+                <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
                     <label for="prompt" class="sr-only">Tell us about the guy you're trying to buy a gift for. The more specific the better!</label>
-                    <textarea rows="3" name="prompt" id="prompt" required class="block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder={form || ''}></textarea>
+                    <textarea rows="3" name="prompt" id="prompt" required class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Type your description here..."></textarea>
     
                     <!-- Spacer element to match the height of the toolbar -->
                     <div class="py-2" aria-hidden="true">
@@ -49,8 +54,8 @@
     </div>
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-20">
         <div class="min-w-0 flex-1">
-            <div class="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
-                <textarea readonly rows={giftIdeas ? 7 : 1} class="block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="Thinking...">{giftIdeas}</textarea>
+            <div class="bg-slate-50 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 p-4">
+                <textarea readonly rows={giftIdeas ? 7 : 1} class="bg-slate-50 block w-full resize-none border-0 py-3 focus:ring-0 sm:text-sm" placeholder="{loading ? 'Thinking...' : ''}">{giftIdeas}</textarea>
             </div>
         </div>
         <div class="flex-shrink-0">
