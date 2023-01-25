@@ -12,9 +12,9 @@ export const actions = {
 
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `Given a description of a man, give me five relevant, specific, and very unique gift ideas in a list. Don't include presonalized gifts. If my description of the guy is nonsense, or has no clear answer, respond with "Unknown". Man: ${prompt}`,
+      prompt: `Given a description of a man, give me five relevant, specific, and very unique gift ideas in a list. Don't include presonalized gifts, make sure the suggestions are creative, and feel free to lightly expand on them. If my description of the guy is nonsense, or has no clear answer, respond with "Unknown". Man: ${prompt}`,
       temperature: 0,
-      max_tokens: 175,
+      max_tokens: 200,
     });
     const choices = response.data.choices;
 
