@@ -2,6 +2,9 @@
     import "../app.css";
     import logo from '$lib/assets/logo.png';
     import { page } from '$app/stores';
+    import { inject } from '@vercel/analytics';
+
+    inject();
 </script>
 <header>
     <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
