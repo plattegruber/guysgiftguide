@@ -120,6 +120,13 @@ export function load() {
                 imageAltText: 'Monos Packing Cubes product image',
                 description: 'Modern, practical packing cubes for the guy that travels.',
                 link: 'https://monos.com/products/packing-cubes'
+            },
+            {
+                title: 'NES Classic Edition',
+                imageUrl: 'https://ucarecdn.com/e413327b-f078-43fd-887c-72a3b2ed76ea/-/preview/-/quality/smart/-/format/auto/-/scale_crop/300x300/smart/',
+                imageAltText: 'NES Classic Edition product image',
+                description: 'A classic throwback preloaded with all the best games, straight from Nintendo.',
+                link: 'https://amzn.to/3Joezee'
             }
         ]
     };
