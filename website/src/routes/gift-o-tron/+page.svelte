@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="flex-shrink-0">
-            <img class="inline-block h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2610&q=80" alt="">
+            <img class="inline-block h-10 w-10 rounded-full" src="https://ucarecdn.com/c508157c-ab41-4b30-8e2a-0c28c9988e5f/-/preview/200x200/" alt="">
         </div>
     </div>
     <div class="flex items-start space-x-4 mx-auto w-full max-w-xl mb-8">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="flex-shrink-0">
-            <img class="inline-block h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2610&q=80" alt="">
+            <img class="inline-block h-10 w-10 rounded-full" src="https://ucarecdn.com/c508157c-ab41-4b30-8e2a-0c28c9988e5f/-/preview/200x200/" alt="">
         </div>
     </div>
 </div>
