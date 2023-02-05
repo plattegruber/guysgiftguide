@@ -6,6 +6,7 @@
 <svelte:head>
 	<title>Guys Gift Guide | gifts for guys | a hand-curated list of men's gift ideas</title>
   <meta name="description" content="Gifts from around the internet that guys are sure to love. We look for the useful, unique, cool things that aren't on everybody's list, but absolutely should be. Updated daily.">
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2fbd9b2352aaac2b9935425b3/62ca0aecf7e3702b587ad6c49.js");</script>
 </svelte:head>
   
 <div class="relative bg-white pt-16">
